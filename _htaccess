@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /valair/
+RewriteRule de$ de_index.php
+RewriteRule en$ en_index.php
+</ifModule>
