@@ -1,0 +1,83 @@
+/* ------------------------------------------
+  Home
+--------------------------------------------- */
+.logo {
+    padding-top: 0em;
+    width: 100%;
+}
+
+.logo img {
+    width: 30%;
+}
+
+@media screen and (min-width: 50em) {
+    .logo {
+        padding-top: 8em;
+    }
+
+    .logo img {
+        width: 12.5%;
+    }
+}
+
+.title p {
+    padding-top: 1em;
+    font-size: 2em;
+    padding-bottom: .5em;
+    border-bottom: 1px solid #ffffff;
+}
+
+.titledesc p {
+    padding-top: 1em;
+    font-size: 1.5em;
+}
+
+@media screen and (min-width: 50em) {
+    .title p {
+        width: 45%;
+        padding-top: .5em;
+        font-size: 3.5em;
+        border-bottom: 1px solid #ffffff;
+        padding-bottom: .5em;
+    }
+
+    .titledesc p {
+        width: 45%;
+        padding-top: 2em;
+        font-size: 1.5em;
+    }
+}
+
+.citation .citation-text {
+    padding-top: 4em;
+    color: whitesmoke;
+    font-style: italic;
+    font-size: .9em;
+}
+
+.citation .citation-author {
+    padding-top: 2em;
+    color: whitesmoke;
+    font-size: .8em;
+}
+
+@media screen and (min-width: 50em) {
+    .citation p {
+        width: 45%;
+    }
+
+    .citation .citation-text {
+        padding-top: 5em;
+        color: whitesmoke;
+        font-style: italic;
+        font-size: .9em;
+    }
+
+    .citation .citation-author {
+        padding-top: 2em;
+        color: whitesmoke;
+        font-size: .8em;
+    }
+
+}
+

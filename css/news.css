@@ -1,0 +1,49 @@
+/* ------------------------------------------
+  News
+--------------------------------------------- */
+
+.news {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    float: left;
+    width: 90%;
+    border-top: .5px solid white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-left: 5%;
+    text-align: left;
+}
+
+.news .datum {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    width: 40%;
+    font-weight: bold;
+    float: left;
+    margin-bottom: .5em;
+}
+
+.news .title {
+    font-family: Arial, Helvetica, sans-serif;
+    width:60%;
+    font-weight: bold;
+    float: left;
+}
+
+.news p {
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    width: 100%;
+    font-size: .8em;
+}
+
+@media screen and (min-width: 50em) {
+    .news .datum {
+        width: 38%;
+        margin-left: 2%;
+    }
+
+    .news p {
+        margin-left: 40%;
+    }
+}

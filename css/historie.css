@@ -1,0 +1,165 @@
+/* ------------------------------------------
+  Historie
+--------------------------------------------- */
+
+.historie {
+    margin-top: -1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    float: left;
+    width: 90%;
+    margin-left: 5%;
+    text-align: left;
+    border-top: .5px solid white;
+}
+
+.historie-menu {
+    text-decoration: none;
+    border-bottom: .5px solid white;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+.historie-menu a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: .5em;
+    font-size: .8em;
+}
+
+.historie-menu.active{
+    background: rgba(215, 206, 209, .5);
+    font-style: italic;
+}
+
+.historie-content {
+    padding-top: 2em;
+    margin-right: .5em;
+}
+
+.historie-content h3{
+    padding-bottom: 1em;
+}
+
+
+.historie-content p{
+    width: 100%;
+    text-align: justify;
+    margin-left: .5em;
+    padding-bottom: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.historie-content .subtitle {
+    margin-left: .5em;
+    padding-bottom: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.historie-content ul {
+    padding-bottom: 2em;
+    margin-left: 4em;
+}
+
+.historie-content li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.historie-content .citation-text {
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.historie-content .citation-author {
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 2em;
+}
+
+.historie-content .citation-author-text {
+    text-align: left;
+    margin-left: .5em;
+}
+
+.historie-content div.center-polaroid {
+    margin-left: 1em;
+}
+
+.historie-content div.polaroid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5em;
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.historie-content div.container {
+    font-style: italic;
+    text-align: center;
+    margin-left: 1em;
+    margin-right: 1em;
+    color: black;
+    font-size: .8em;
+}
+
+.historie-content img {
+    width: 100%
+}
+
+.historie-content .citation-rules {
+    padding-top: 0;
+    padding-bottom: 2em;
+}
+
+.historie-content .hidden{
+    display:none;
+}
+
+@media screen and (min-width: 50em) {
+    .historie-menu a {
+        font-size: 1em;
+        margin-left: 1em;
+    }
+
+    .historie-content {
+        padding-top: 4em;
+        margin-right: 1em;
+    }
+
+    .historie-content p{
+        width: 100%;
+        text-align: justify;
+        margin-left: 1em;
+        padding-bottom: 1.5em;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .historie-content .subtitle {
+        margin-left: 1em;
+    }
+
+    .historie-content ul {
+        margin-left: 6em;
+    }
+
+    .historie-content .citation-author-text {
+        margin-left: 1.3em;
+    }
+
+    .historie-content .citation-rules {
+        padding-top: 0;
+        padding-bottom: 2em;
+    }
+
+    .historie-content div.center-polaroid {
+        margin-left: 1em;
+    }
+
+    .historie-content div.polaroid {
+        width: 30%;
+    }
+}

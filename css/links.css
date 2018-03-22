@@ -1,0 +1,66 @@
+/* ------------------------------------------
+  Links
+--------------------------------------------- */
+
+.links h3 {
+    text-align: left;
+    padding-bottom: 1.5em;
+    margin-left: 5%;
+}
+
+.link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8em;
+    float: left;
+    width: 90%;
+    border-top: .5px solid white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+}
+
+.link.last {
+    padding-bottom: 4em;
+}
+
+.link .desc {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    width: 100%;
+    font-weight: bold;
+    float: left;
+    padding-right: 1em;
+}
+
+.link .desc.break {
+    margin-bottom: 1em;
+}
+
+.links-external-link {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.links-external-link a {
+    text-decoration: none;
+    color: #fff;
+    font-style: italic;
+}
+
+@media screen and (min-width: 40em) {
+    .link {
+        font-size: 1em;
+    }
+
+    .link .desc {
+        margin-left: 1em;
+        width: 40%;
+    }
+
+    .link .desc.break {
+        margin-bottom: 0em;
+    }
+}
