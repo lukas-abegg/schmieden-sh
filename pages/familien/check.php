@@ -7,9 +7,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $username = $_POST['username'];
     $passwort = $_POST['passwort'];
 
-    $url = "../../index.php";
-    $page = "#familien";
-
     // Vorstand Benutzername und Passwort werden überprüft
     if ($username == 'Vorstand2014' && $passwort == '20VorstandSchmied14') {
         $_SESSION['vorstand'] = true;
@@ -23,8 +20,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         }
     }
 
-    $url .= $page;
 }
+
+$url = "../../index.php";
+$page = "#familien";
+$url .= $page;
 
 // Weiterleitung zur Startseite
 header("Location: $url");

@@ -8,176 +8,144 @@
 
     <div class="hint">!! Bitte benutzt beim Upload keine Dateinamen mit Umlauten. !!</div>
 
+    <div id="success" class="hint hidden"></div>
+    <div id="error" class="hint hidden"></div>
+
     <h4>Dokumente Zunftbot und Zunftausflug</h4>
 
-    <!--          <tr width="100%">-->
-    <!--          <td width="100%" colspan="2" ><br>-->
-    <!--          <span style="font-family: Arial; font-size: 16px; color: white;">-->
-    <!--          <em>Dokumente zu Zunftbot und Zunftausflug</em></span>-->
-    <!--          </td>-->
-    <!--          </tr>-->
-    <!--          -->
-                  <tr width="100%">
-                  <td><br><span style="font-family: Arial; font-size: 12px; color: white;">
-                  <div class="style20">- Bestellschein Zunftwein: </div></span>
-                  </td>
-                  <td><br>
-                  <div class="style20"><span style="font-family: Arial; font-size: 12px; color: white;">
-        <form enctype="multipart/form-data" action="index.php?section=intern&site=uploader_bestellschein_zunftwein" method="POST">
-                  <input type="hidden" name="MAX_FILE_SIZE" value="1000000000" />
-                  Bestellschein Zunftwein auf Computer ausw&auml;hlen: <br><input name="uploadedfile" type="file" />
-                  <br><input type="submit" value="Datei hochladen" /></form>
+    <div class="upload">
+        <div class="desc">Bestellschein Zunftwein</div>
+        <div class="upload-link">
+            <form enctype="multipart/form-data" action="pages/familien/uploader/uploader_bestellschein_zunftwein.php"
+                  method="POST">
+                <input type="file" name="file" id="uploader_bestellschein_zunftwein" class="inputfile"
+                       data-multiple-caption="{count} files selected" multiple/>
+                <label for="uploader_bestellschein_zunftwein">Choose a file</label>
+                <input type="submit" value="Datei hochladen"/>
+            </form>
         </div>
-                  </td>
-                  </tr>
-    <!--          -->
-    <!--          <tr width="100%">-->
-    <!--          <td><br><span style="font-family: Arial; font-size: 12px; color: white;">-->
-    <!--          <div class="style20">- Anmeldung Zunftbot: </div></span>-->
-    <!--          </td>-->
-    <!--          <td><br>-->
-    <!--          <div class="style20"><span style="font-family: Arial; font-size: 12px; color: white;">-->
-    <!--          <form enctype="multipart/form-data" action="index.php?section=intern&site=uploader_anmeldung_zunftbot" method="POST">-->
-    <!--          <input type="hidden" name="MAX_FILE_SIZE" value="1000000000" />-->
-    <!--          Anmeldung Zunftbot auf Computer ausw&auml;hlen: <br><input name="uploadedfile" type="file" />-->
-    <!--          <br><input type="submit" value="Datei hochladen" /></form>-->
-    <!--          </div>-->
-    <!--          </td>-->
-    <!--          </tr>-->
-    <!--          -->
-    <!--          <tr width="100%">-->
-    <!--          <td><br><span style="font-family: Arial; font-size: 12px; color: white;">-->
-    <!--          <div class="style20">- Aufnahmegesuch Zunftbot: </div></span>-->
-    <!--          </td>-->
-    <!--          <td><br>-->
-    <!--          <div class="style20"><span style="font-family: Arial; font-size: 12px; color: white;">-->
-    <!--          <form enctype="multipart/form-data" action="index.php?section=intern&site=uploader_aufnahmegesuch_zunftbot" method="POST">-->
-    <!--          <input type="hidden" name="MAX_FILE_SIZE" value="1000000000" />-->
-    <!--          Aufnahmegesuch Zunftbot auf Computer ausw&auml;hlen: <br><input name="uploadedfile" type="file" />-->
-    <!--          <br><input type="submit" value="Datei hochladen" /></form>-->
-    <!--          </div>-->
-    <!--          </td>-->
-    <!--          </tr>-->
-    <!--          -->
-    <!--          <tr width="100%">-->
-    <!--          <td><br><span style="font-family: Arial; font-size: 12px; color: white;">-->
-    <!--          <div class="style20">- Anmeldung Herbstanlass: </div></span>-->
-    <!--          </td>-->
-    <!--          <td><br>-->
-    <!--          <div class="style20"><span style="font-family: Arial; font-size: 12px; color: white;">-->
-    <!--          <form enctype="multipart/form-data" action="index.php?section=intern&site=uploader_anmeldung_herbstanlass" method="POST">-->
-    <!--          <input type="hidden" name="MAX_FILE_SIZE" value="1000000000" />-->
-    <!--          Anmeldung Herbstanlass auf Computer ausw&auml;hlen: <br><input name="uploadedfile" type="file" />-->
-    <!--          <br><input type="submit" value="Datei hochladen" /></form>-->
-    <!--          </div>-->
-    <!--          </td>-->
-    <!--          </tr>-->
-    <!---->
-    <!--	<tr width="100%">-->
-    <!--          <td><br><span style="font-family: Arial; font-size: 12px; color: white;">-->
-    <!--          <div class="style20">- Anmeldung Dreik&ouml;nigsumzug: </div></span>-->
-    <!--          </td>-->
-    <!--          <td><br>-->
-    <!--          <div class="style20"><span style="font-family: Arial; font-size: 12px; color: white;">-->
-    <!--          <form enctype="multipart/form-data" action="index.php?section=intern&site=uploader_anmeldung_dreikoenigsumzug" method="POST">-->
-    <!--          <input type="hidden" name="MAX_FILE_SIZE" value="1000000000" />-->
-    <!--          Anmeldung Dreik&ouml;nigsumzug auf Computer ausw&auml;hlen: <br><input name="uploadedfile" type="file" />-->
-    <!--          <br><input type="submit" value="Datei hochladen" /></form>-->
-    <!--          </div>-->
-    <!--          </td>-->
-    <!--          </tr>-->
-    <!--          -->
-    <!--          <tr width="100%">-->
-    <!--          <td colspan="2"><br>-->
-    <!--          <span style="font-family: Arial; font-size: 16px; color: white;">-->
-    <!--          <em>Allgemeine Zunft-Dokumente</em></span>-->
-    <!--          </td>-->
-    <!--          </tr>-->
-    <!--          -->
-    <!--          <tr width="100%">-->
-    <!--          <td><br><span style="font-family: Arial; font-size: 12px; color: white;">-->
-    <!--          <div class="style20">- Teilrevision der Statuten: </div></span>-->
-    <!--          </td>-->
-    <!--          <td><br>-->
-    <!--          <div class="style20"><span style="font-family: Arial; font-size: 12px; color: white;">-->
-    <!--          <form enctype="multipart/form-data" action="index.php?section=intern&site=uploader_revision_statuten" method="POST">-->
-    <!--          <input type="hidden" name="MAX_FILE_SIZE" value="1000000000" />-->
-    <!--          Teilrevision der Statuten auf Computer ausw&auml;hlen: <br><input name="uploadedfile" type="file" />-->
-    <!--          <br><input type="submit" value="Datei hochladen" /></form>-->
-    <!--          </div>-->
-    <!--          </td>-->
-    <!--          </tr>-->
-    <!--          -->
-    <!--          <tr width="100%">-->
-    <!--          <td><br><span style="font-family: Arial; font-size: 12px; color: white;">-->
-    <!--          <div class="style20">- Statuten inkl. historischem Anhang: </div></span>-->
-    <!--          </td>-->
-    <!--          <td><br>-->
-    <!--          <div class="style20"><span style="font-family: Arial; font-size: 12px; color: white;">-->
-    <!--          <form enctype="multipart/form-data" action="index.php?section=intern&site=uploader_statuten" method="POST">-->
-    <!--          <input type="hidden" name="MAX_FILE_SIZE" value="1000000000" />-->
-    <!--          Statuten auf Computer ausw&auml;hlen: <br><input name="uploadedfile" type="file" />-->
-    <!--          <br><input type="submit" value="Datei hochladen" /></form>-->
-    <!--          </div>-->
-    <!--          </td>-->
-    <!--          </tr>-->
-    <!--          -->
-    <!--          <tr width="100%">-->
-    <!--          <td><br><span style="font-family: Arial; font-size: 12px; color: white;">-->
-    <!--          <div class="style20">- Mitglieder des Zunftvorstandes: </div></span>-->
-    <!--          </td>-->
-    <!--          <td><br>-->
-    <!--          <div class="style20"><span style="font-family: Arial; font-size: 12px; color: white;">-->
-    <!--          <form enctype="multipart/form-data" action="index.php?section=intern&site=uploader_vorstand" method="POST">-->
-    <!--          <input type="hidden" name="MAX_FILE_SIZE" value="1000000000" />-->
-    <!--          Mitglieder des Zunftvorstandes auf Computer ausw&auml;hlen: <br><input name="uploadedfile" type="file" />-->
-    <!--          <br><input type="submit" value="Datei hochladen" /></form>-->
-    <!--          </div>-->
-    <!--          </td>-->
-    <!--          </tr>-->
-    <!--          -->
-    <!--          <tr width="100%">-->
-    <!--          <td><br><span style="font-family: Arial; font-size: 12px; color: white;">-->
-    <!--          <div class="style20">- Anzahl Z&uuml;nfter: </div></span>-->
-    <!--          </td>-->
-    <!--          <td><br>-->
-    <!--          <div class="style20"><span style="font-family: Arial; font-size: 12px; color: white;">-->
-    <!--          <form enctype="multipart/form-data" action="index.php?section=intern&site=uploader_anzahl_zuenfter" method="POST">-->
-    <!--          <input type="hidden" name="MAX_FILE_SIZE" value="1000000000" />-->
-    <!--          Anzahl Z&uuml;nfter auf Computer ausw&auml;hlen: <br><input name="uploadedfile" type="file" />-->
-    <!--          <br><input type="submit" value="Datei hochladen" /></form>-->
-    <!--          </div>-->
-    <!--          </td>-->
-    <!--          </tr>-->
-    <!--          -->
-    <!--          <tr width="100%">-->
-    <!--          <td><br><span style="font-family: Arial; font-size: 12px; color: white;">-->
-    <!--          <div class="style20">- Rodel: </div></span>-->
-    <!--          </td>-->
-    <!--          <td><br>-->
-    <!--          <div class="style20"><span style="font-family: Arial; font-size: 12px; color: white;">-->
-    <!--          <form enctype="multipart/form-data" action="index.php?section=intern&site=uploader_rodel" method="POST">-->
-    <!--          <input type="hidden" name="MAX_FILE_SIZE" value="1000000000" />-->
-    <!--          Rodel auf Computer ausw&auml;hlen: <br><input name="uploadedfile" type="file" />-->
-    <!--          <br><input type="submit" value="Datei hochladen" /></form>-->
-    <!--          </div>-->
-    <!--          </td>-->
-    <!--          </tr>-->
-    <!---->
-    <!--	<tr width="100%">-->
-    <!--          <td><br><span style="font-family: Arial; font-size: 12px; color: white;">-->
-    <!--          <div class="style20">- Adressliste Rodel: </div></span>-->
-    <!--          </td>-->
-    <!--          <td><br>-->
-    <!--          <div class="style20"><span style="font-family: Arial; font-size: 12px; color: white;">-->
-    <!--          <form enctype="multipart/form-data" action="index.php?section=intern&site=uploader_adressliste_rodel" method="POST">-->
-    <!--          <input type="hidden" name="MAX_FILE_SIZE" value="1000000000" />-->
-    <!--          Adressliste Rodel auf Computer ausw&auml;hlen: <br><input name="uploadedfile" type="file" />-->
-    <!--          <br><input type="submit" value="Datei hochladen" /></form>-->
-    <!--          </div>-->
-    <!--          </td>-->
-    <!--          </tr>-->
-    <!--          -->
-    <!--</table>-->
+    </div>
+    <div class="upload">
+        <div class="desc">Anmeldung Zunftbot</div>
+        <div class="upload-link">
+            <form enctype="multipart/form-data" action="pages/familien/uploader/uploader_anmeldung_zunftbot.php"
+                  method="POST">
+                <input type="file" name="file" id="uploader_anmeldung_zunftbot" class="inputfile"
+                       data-multiple-caption="{count} files selected" multiple/>
+                <label for="uploader_anmeldung_zunftbot">Choose a file</label>
+                <input type="submit" value="Datei hochladen"/>
+            </form>
+        </div>
+    </div>
+    <div class="upload">
+        <div class="desc">Aufnahmegesuch Zunftbot</div>
+        <div class="upload-link">
+            <form enctype="multipart/form-data" action="pages/familien/uploader/uploader_aufnahmegesuch_zunftbot.php"
+                  method="POST">
+                <input type="file" name="file" id="uploader_aufnahmegesuch_zunftbot" class="inputfile"
+                       data-multiple-caption="{count} files selected" multiple/>
+                <label for="uploader_aufnahmegesuch_zunftbot">Choose a file</label>
+                <input type="submit" value="Datei hochladen"/>
+            </form>
+        </div>
+    </div>
+    <div class="upload">
+        <div class="desc">Anmeldung Herbstanlass</div>
+        <div class="upload-link">
+            <form enctype="multipart/form-data" action="pages/familien/uploader/uploader_anmeldung_herbstanlass.php"
+                  method="POST">
+                <input type="file" name="file" id="uploader_anmeldung_herbstanlass" class="inputfile"
+                       data-multiple-caption="{count} files selected" multiple/>
+                <label for="uploader_anmeldung_herbstanlass">Choose a file</label>
+                <input type="submit" value="Datei hochladen"/>
+            </form>
+        </div>
+    </div>
+    <div class="upload last">
+        <div class="desc">Anmeldung Dreik&ouml;nigsumzug</div>
+        <div class="upload-link">
+            <form enctype="multipart/form-data" action="pages/familien/uploader/uploader_anmeldung_dreikoenigsumzug"
+                  method="POST">
+                <input type="file" name="file" id="uploader_anmeldung_dreikoenigsumzug" class="inputfile"
+                       data-multiple-caption="{count} files selected" multiple/>
+                <label for="uploader_anmeldung_dreikoenigsumzug">Choose a file</label>
+                <input type="submit" value="Datei hochladen"/>
+            </form>
+        </div>
+    </div>
 
+    <h4>Allgemeine Zunft-Dokumente</h4>
+
+    <div class="upload">
+        <div class="desc">Teilrevision der Statuten</div>
+        <div class="upload-link">
+            <form enctype="multipart/form-data" action="pages/familien/uploader/uploader_revision_statuten.php"
+                  method="POST">
+                <input type="file" name="file" id="uploader_revision_statuten" class="inputfile"
+                       data-multiple-caption="{count} files selected" multiple/>
+                <label for="uploader_revision_statuten">Choose a file</label>
+                <input type="submit" value="Datei hochladen"/>
+            </form>
+        </div>
+    </div>
+    <div class="upload">
+        <div class="desc">Statuten inkl. historischem Anhang</div>
+        <div class="upload-link">
+            <form enctype="multipart/form-data" action="pages/familien/uploader/uploader_statuten.php"
+                  method="POST">
+                <input type="file" name="file" id="uploader_statuten" class="inputfile"
+                       data-multiple-caption="{count} files selected" multiple/>
+                <label for="uploader_statuten">Choose a file</label>
+                <input type="submit" value="Datei hochladen"/>
+            </form>
+        </div>
+    </div>
+    <div class="upload">
+        <div class="desc">Mitglieder des Zunftvorstandes</div>
+        <div class="upload-link">
+            <form enctype="multipart/form-data" action="pages/familien/uploader/uploader_vorstand.php"
+                  method="POST">
+                <input type="file" name="file" id="uploader_vorstand" class="inputfile"
+                       data-multiple-caption="{count} files selected" multiple/>
+                <label for="uploader_vorstand">Choose a file</label>
+                <input type="submit" value="Datei hochladen"/>
+            </form>
+        </div>
+    </div>
+    <div class="upload">
+        <div class="desc">Anzahl Z&uuml;nfter</div>
+        <div class="upload-link">
+            <form enctype="multipart/form-data" action="pages/familien/uploader/uploader_anzahl_zuenfter.php"
+                  method="POST">
+                <input type="file" name="file" id="uploader_anzahl_zuenfter" class="inputfile"
+                       data-multiple-caption="{count} files selected" multiple/>
+                <label for="uploader_anzahl_zuenfter">Choose a file</label>
+                <input type="submit" value="Datei hochladen"/>
+            </form>
+        </div>
+    </div>
+    <div class="upload">
+        <div class="desc">Rodel</div>
+        <div class="upload-link">
+            <form enctype="multipart/form-data" action="pages/familien/uploader/uploader_rodel.php"
+                  method="POST">
+                <input type="file" name="file" id="uploader_rodel" class="inputfile"
+                       data-multiple-caption="{count} files selected" multiple/>
+                <label for="uploader_rodel">Choose a file</label>
+                <input type="submit" value="Datei hochladen"/>
+            </form>
+        </div>
+    </div>
+    <div class="upload">
+        <div class="desc">Adressliste Rodel</div>
+        <div class="upload-link">
+            <form enctype="multipart/form-data" action="pages/familien/uploader/uploader_adressliste_rodel.php"
+                  method="POST">
+                <input type="file" name="file" id="uploader_adressliste_rodel" class="inputfile"
+                       data-multiple-caption="{count} files selected" multiple/>
+                <label for="uploader_adressliste_rodel">Choose a file</label>
+                <input type="submit" value="Datei hochladen"/>
+            </form>
+        </div>
+    </div>
 </div>

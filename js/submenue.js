@@ -1,3 +1,4 @@
+
 jQuery(document).ready(function ($) {
 
     var div = 'div';
@@ -216,5 +217,4 @@ jQuery(document).ready(function ($) {
         });
         familien_upload.removeClass(hidden);
     });
-})
-;
+});

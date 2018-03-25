@@ -79,6 +79,7 @@
 
 <script src="js/login.js"></script>
 <script src="js/submenue.js"></script>
+<script src="js/upload.js"></script>
 <script src="js/fastclick.js"></script>
 <script src="js/scroll.js"></script>
 <script src="js/fixed-responsive-nav.js"></script>

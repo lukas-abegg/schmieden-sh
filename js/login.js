@@ -8,7 +8,6 @@ jQuery(document).ready(function ($) {
     };
 
     $( document ).ready(function() {
-        console.log($.urlParam('login_failed'));
         var login_failed = $.urlParam('login_failed');
         if (login_failed==="true") {
             login_failed_msg.removeClass("hidden");
