@@ -23,10 +23,12 @@
     <link rel="stylesheet" href="css/familien.css">
     <link rel="stylesheet" href="css/events.css">
     <link rel="stylesheet" href="css/links.css">
+    <link rel="stylesheet" href="css/forms.css">
 
     <script type="text/javascript" src="js/jquery-latest.min.js"></script>
     <script type="text/javascript" src="jquery.url.js"></script>
-    <script src="js/responsive-nav.js"></script>
+    <script type="text/javascript" src="js/responsive-nav.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
 </head>
 <body>
 
@@ -44,6 +46,21 @@
         </ul>
     </nav>
 </header>
+
+<!-- The Modal -->
+<div id="imgModal" class="modal">
+    <span class="close-modal">&times;</span>
+    <img class="modal-content" id="imgPlaceInModal">
+    <div id="caption"></div>
+</div>
+
+<!-- The Banner Modal -->
+<div id="imgModalBanner" class="modal-banner">
+    <span class="close-modal-banner">&times;</span>
+    <img class="modal-content-banner" id="imgPlaceInModalBanner">
+    <div id="captionBanner"></div>
+</div>
+
 
 <section id="home" data-stellar-background-ratio="0.5">
     <?php include("pages/home.php"); ?>
@@ -77,7 +94,7 @@
     <?php include("pages/links.php"); ?>
 </section>
 
-<script src="js/login.js"></script>
+<script src="js/image-modal.js"></script>
 <script src="js/submenue.js"></script>
 <script src="js/upload.js"></script>
 <script src="js/fastclick.js"></script>

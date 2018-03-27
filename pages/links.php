@@ -18,13 +18,13 @@
     <div class="link">
         <div class="desc">Zunft zun Gerbern</div>
         <div class="links-external-link">
-            keine Website
+            <div class="no-link">keine Website</div>
         </div>
     </div>
     <div class="link">
         <div class="desc">Zunft zun Schuhmachern</div>
         <div class="links-external-link">
-            keine Website
+            <div class="no-link">keine Website</div>
         </div>
     </div>
     <div class="link">
@@ -36,11 +36,11 @@
     <div class="link">
         <div class="desc">Gesellschaft zun Kaufleuten</div>
         <div class="links-external-link">
-            keine Website
+            <div class="no-link">keine Website</div>
         </div>
     </div>
     <div class="link">
-        <div class="desc break">Zunft zun Becken</div>
+        <div class="desc">Zunft zun Becken</div>
         <div class="links-external-link">
             <a href="http://www.zunft-zun-becken.ch/" target="_blank">http://www.zunft-zun-becken.ch/</a>
         </div>
@@ -48,19 +48,19 @@
     <div class="link">
         <div class="desc">Zunft zun Rebleuten</div>
         <div class="links-external-link">
-            keine Website
+            <div class="no-link">keine Website</div>
         </div>
     </div>
     <div class="link">
         <div class="desc">Zunft zum Rüden</div>
         <div class="links-external-link">
-            keine Website
+            <div class="no-link">keine Website</div>
         </div>
     </div>
     <div class="link">
         <div class="desc">Gesellschaft zun Herren</div>
         <div class="links-external-link">
-            keine Website
+            <div class="no-link">keine Website</div>
         </div>
     </div>
     <div class="link">
@@ -72,7 +72,7 @@
     <div class="link last">
         <div class="desc">Zunft zun Webern</div>
         <div class="links-external-link">
-            keine Website
+            <div class="no-link">keine Website</div>
         </div>
     </div>
 </div>
@@ -89,7 +89,7 @@
     <div class="link">
         <div class="desc">Abbaye des Marechaux, Fribourg</div>
         <div class="links-external-link">
-            keine Website
+            <div class="no-link">keine Website</div>
         </div>
     </div>
     <div class="link">

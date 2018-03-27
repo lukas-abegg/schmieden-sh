@@ -18,7 +18,7 @@
 </ul>
 <div class="center-polaroid">
     <div class="polaroid">
-        <img src="images/new/vulkan_neu.png" alt="Heutiger Pokal, der Vulkan">
+        <img src="images/new/vulkan_neu.png" id="vulkanHeute" alt="Heutiger Pokal, der Vulkan">
         <div class="container">
             <p>Der aktuelle Vulkan, aktueller Pokal der Zunft zu'n Schmieden</p>
         </div>

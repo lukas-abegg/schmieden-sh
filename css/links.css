@@ -10,7 +10,7 @@
 
 .link {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: .8em;
+    font-size: .7em;
     float: left;
     width: 90%;
     border-top: .5px solid white;
@@ -44,10 +44,32 @@
     margin-left: 5%;
 }
 
-.links-external-link a {
+.links-external-link .no-link {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(215, 206, 209, .5);
+    border: 3px solid #fff;
+    color: white;
+    text-align: center;
     text-decoration: none;
-    color: #fff;
-    font-style: italic;
+    display: inline-block;
+    padding: 1em 1em;
+    margin-top: 1em;
+    margin-left: .5em;
+    border-radius: 4px;
+}
+
+.links-external-link a {
+    background-color: #555555;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em 1em;
+    margin-top: 1em;
+    margin-left: .5em;
+    cursor: pointer;
+    border-style: solid;
+    border-radius: 4px;
 }
 
 @media screen and (min-width: 40em) {

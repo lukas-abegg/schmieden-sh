@@ -20,6 +20,7 @@ jQuery(document).ready(function ($) {
     var familien_login_link = $('#login_link');
     var familien_download_link = $('#download_link');
     var familien_upload_link = $('#upload_link');
+    var forms_anmeldung_zunftbot_link = $('#forms_anmeldung_zunftbot_link');
 
     var historie_zunftbildung = $('#zunftbildung');
     var historie_zunftberufe = $('#zunftberufe');
@@ -36,6 +37,7 @@ jQuery(document).ready(function ($) {
     var familien_login = $('#login');
     var familien_download = $('#download');
     var familien_upload = $('#upload');
+    var forms_anmeldung_zunftbot = $('#forms_anmeldung_zunftbot');
 
 
     historie_zunftbildung_link.click(function () {
@@ -216,5 +218,20 @@ jQuery(document).ready(function ($) {
             ;
         });
         familien_upload.removeClass(hidden);
+    });
+
+    forms_anmeldung_zunftbot_link.click(function () {
+        forms_anmeldung_zunftbot_link.parent(div).parent(div).children().each(function () {
+            $(this).removeClass(active);
+        });
+        forms_anmeldung_zunftbot_link.parent(div).addClass(active);
+
+        forms_anmeldung_zunftbot.parent().children().each(function () {
+            if (!$(this).hasClass(hidden)) {
+                $(this).addClass(hidden);
+            }
+            ;
+        });
+        forms_anmeldung_zunftbot.removeClass(hidden);
     });
 });

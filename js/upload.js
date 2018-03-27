@@ -34,7 +34,11 @@ jQuery(document).ready(function ($) {
 
     $.urlParam = function (name) {
         var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
-        return results[1] || 0;
+        if (results != null) {
+            return results[1];
+        } else {
+            return 0;
+        }
     };
 
     var div = 'div';
@@ -50,11 +54,11 @@ jQuery(document).ready(function ($) {
     var familien_upload_link = $('#upload_link');
     var familien_upload = $('#upload');
 
-    if(!success_box.hasClass(hidden)){
+    if (!success_box.hasClass(hidden)) {
         success_box.addClass(hidden);
     }
 
-    if(!error_box.hasClass(hidden)){
+    if (!error_box.hasClass(hidden)) {
         error_box.addClass(hidden);
     }
 
@@ -76,7 +80,7 @@ jQuery(document).ready(function ($) {
 
     var doc_text = "";
 
-    switch(doc) {
+    switch (doc) {
         case "bestellschein_zunftwein":
             doc_text = "Bestellschein Zunftwein";
             break;
@@ -114,11 +118,11 @@ jQuery(document).ready(function ($) {
             break;
     }
 
-    if (success === "true"){
+    if (success === "true") {
         success_box.removeClass('hidden');
-        success_box.html('Das Dokument <i><b>'+doc_text+'</b></i> wurde erfolgreich ersetzt');
-    } else if (success === "false"){
+        success_box.html('Das Dokument <i><b>' + doc_text + '</b></i> wurde erfolgreich ersetzt');
+    } else if (success === "false") {
         error_box.removeClass('hidden');
-        error_box.html('Das Dokument <i><b>'+doc_text+'</b></i> konnte nicht ersetzt werden');
+        error_box.html('Das Dokument <i><b>' + doc_text + '</b></i> konnte nicht ersetzt werden');
     }
 });

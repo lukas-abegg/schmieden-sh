@@ -6,7 +6,7 @@
     </p>
     <div class="center-polaroid">
         <div class="polaroid">
-            <img src="images/new/vulkan_alt.png" alt="Alter Pokal, der Vulkan">
+            <img src="images/new/vulkan_alt.png" id="vulkanAlt" alt="Alter Pokal, der Vulkan">
             <div class="container">
                 <p>Der Vulkan, ehemaliger Pokal der Zunft zu'n Schmieden</p>
             </div>

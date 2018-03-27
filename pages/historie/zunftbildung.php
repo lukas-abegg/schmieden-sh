@@ -6,7 +6,7 @@
     </p>
     <div class="center-polaroid">
         <div class="polaroid">
-            <img src="images/new/wappen.png" alt="Zunft zun Schmieden">
+            <img src="images/new/wappen.png" id="imgWappen" alt="Wappen der Zunft zu'n Schmieden">
             <div class="container">
                 <p>Wappen der Zunft zu'n Schmieden</p>
             </div>

@@ -4,7 +4,5 @@
     <p>
         Die Zunft zun Schmieden Schaffhausen hat eine lange Historie des Vorstandes. Die letzten ca. 60 Jahren sind in dem folgenden PDF-Dokument dargestellt:
     </p>
-    <p>
-        <a href="vorstand/Vorstand1950_2016.pdf" target="_blank"> Download Vorstandsliste 1950 - 2016</a>
-    </p>
+        <div class="download-vorstand"><a href="vorstand/Vorstand1950_2016.pdf" target="_blank"> Download Vorstandsliste 1950 - 2016</a></div>
 </div>

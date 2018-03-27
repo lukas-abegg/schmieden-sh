@@ -4,7 +4,7 @@
     <div class="familie">
         <div class="center-polaroid">
             <div class="polaroid">
-                <img src="images/new/familien/abegg.jpg" alt="Abegg">
+                <img src="images/new/familien/abegg.jpg" id="Abegg" alt="Abegg">
                 <div class="container">
                     <p class="title">Abegg</p>
                     <p class="count">Zünfterinnen: 5</p>
@@ -17,7 +17,7 @@
     <div class="familie">
         <div class="center-polaroid">
             <div class="polaroid">
-                <img src="images/new/familien/baeschlin.jpg" alt="B&auml;schlin">
+                <img src="images/new/familien/baeschlin.jpg" id="Baeschlin" alt="B&auml;schlin">
                 <div class="container">
                     <p class="title">B&auml;schlin</p>
                     <p class="count">Zünfterinnen: 3</p>
@@ -30,7 +30,7 @@
     <div class="familie">
         <div class="center-polaroid">
             <div class="polaroid">
-                <img src="images/new/familien/becker.jpg" alt="Becker">
+                <img src="images/new/familien/becker.jpg" id="Becker" alt="Becker">
                 <div class="container">
                     <p class="title">Becker</p>
                     <p class="count">Zünfterinnen: 1</p>
@@ -43,7 +43,7 @@
     <div class="familie">
         <div class="center-polaroid">
             <div class="polaroid">
-                <img src="images/new/familien/bendel.jpg" alt="Bendel">
+                <img src="images/new/familien/bendel.jpg" id="Bendel" alt="Bendel">
                 <div class="container">
                     <p class="title">Bendel</p>
                     <p class="count">Zünfterinnen: 0</p>
@@ -56,7 +56,7 @@
     <div class="familie">
         <div class="center-polaroid">
             <div class="polaroid">
-                <img src="images/new/familien/bodmer.jpg" alt="Bodmer">
+                <img src="images/new/familien/bodmer.jpg" id="Bodmer" alt="Bodmer">
                 <div class="container">
                     <p class="title">Bodmer</p>
                     <p class="count">Zünfterinnen: 6</p>
@@ -69,7 +69,7 @@
     <div class="familie">
         <div class="center-polaroid">
             <div class="polaroid">
-                <img src="images/new/familien/bruppacher.jpg" alt="Brupbacher">
+                <img src="images/new/familien/bruppacher.jpg" id="Brupbacher" alt="Brupbacher">
                 <div class="container">
                     <p class="title">Brupbacher</p>
                     <p class="count">Zünfterinnen: 4</p>
@@ -82,7 +82,7 @@
     <div class="familie">
         <div class="center-polaroid">
             <div class="polaroid">
-                <img src="images/new/familien/fischer.jpg" alt="Fischer">
+                <img src="images/new/familien/fischer.jpg" id="Fischer" alt="Fischer">
                 <div class="container">
                     <p class="title">Fischer</p>
                     <p class="count">Zünfterinnen: 1</p>
@@ -95,7 +95,7 @@
     <div class="familie">
         <div class="center-polaroid">
             <div class="polaroid">
-                <img src="images/new/familien/graber.jpg" alt="Graber">
+                <img src="images/new/familien/graber.jpg" id="Graber" alt="Graber">
                 <div class="container">
                     <p class="title">Graber</p>
                     <p class="count">Zünfterinnen: 0</p>
@@ -108,7 +108,7 @@
     <div class="familie">
         <div class="center-polaroid">
             <div class="polaroid">
-                <img src="images/new/familien/hurter.jpg" alt="Hurter">
+                <img src="images/new/familien/hurter.jpg" id="Hurter" alt="Hurter">
                 <div class="container">
                     <p class="title">Hurter</p>
                     <p class="count">Zünfterinnen: 4</p>
@@ -121,7 +121,7 @@
     <div class="familie">
         <div class="center-polaroid">
             <div class="polaroid">
-                <img src="images/new/familien/jezler.jpg" alt="Jezler">
+                <img src="images/new/familien/jezler.jpg" id="Jezler" alt="Jezler">
                 <div class="container">
                     <p class="title">Jezler</p>
                     <p class="count">Zünfterinnen: 1</p>
@@ -134,7 +134,7 @@
     <div class="familie">
         <div class="center-polaroid">
             <div class="polaroid">
-                <img src="images/new/familien/kuebler.jpg" alt="Kübler">
+                <img src="images/new/familien/kuebler.jpg" id="Kuebler" alt="Kübler">
                 <div class="container">
                     <p class="title">Kübler</p>
                     <p class="count">Zünfterinnen: 2</p>
@@ -147,7 +147,7 @@
     <div class="familie">
         <div class="center-polaroid">
             <div class="polaroid">
-                <img src="images/new/familien/moser.jpg" alt="Moser">
+                <img src="images/new/familien/moser.jpg" id="Moser" alt="Moser">
                 <div class="container">
                     <p class="title">Moser</p>
                     <p class="count">Zünfterinnen: 5</p>
@@ -160,7 +160,7 @@
     <div class="familie">
         <div class="center-polaroid">
             <div class="polaroid">
-                <img src="images/new/familien/schnetzler.jpg" alt="Schnetzler">
+                <img src="images/new/familien/schnetzler.jpg" id="Schnetzler" alt="Schnetzler">
                 <div class="container">
                     <p class="title">Schnetzler</p>
                     <p class="count">Zünfterinnen: 0</p>
@@ -173,7 +173,7 @@
     <div class="familie">
         <div class="center-polaroid">
             <div class="polaroid">
-                <img src="images/new/familien/sorg.jpg" alt="Sorg">
+                <img src="images/new/familien/sorg.jpg" id="Sorg" alt="Sorg">
                 <div class="container">
                     <p class="title">Sorg</p>
                     <p class="count">Zünfterinnen: 0</p>
@@ -186,7 +186,7 @@
     <div class="familie">
         <div class="center-polaroid">
             <div class="polaroid">
-                <img src="images/new/familien/stierlin.jpg" alt="Stierlin">
+                <img src="images/new/familien/stierlin.jpg" id="Stierlin" alt="Stierlin">
                 <div class="container">
                     <p class="title">Stierlin</p>
                     <p class="count">Zünfterinnen: 3</p>
@@ -199,7 +199,7 @@
     <div class="familie">
         <div class="center-polaroid">
             <div class="polaroid">
-                <img src="images/new/familien/sulzer.jpg" alt="Sulzer">
+                <img src="images/new/familien/sulzer.jpg" id="Sulzer" alt="Sulzer">
                 <div class="container">
                     <p class="title">Sulzer</p>
                     <p class="count">Zünfterinnen: 19</p>

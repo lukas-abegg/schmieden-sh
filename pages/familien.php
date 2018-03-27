@@ -14,6 +14,8 @@
 
             if (isset($_SESSION['vorstand'])) {
                 ?>
+                <div class="familien-menu"><a id="forms_anmeldung_zunftbot_link" href="#familien" data-scroll>Anmeldung Zunftbot</a>
+                </div>
                 <div class="familien-menu"><a id="upload_link" href="#familien" data-scroll>Zunftdokumente ersetzen</a>
                 </div>
                 <?
@@ -39,6 +41,7 @@
         <div id="zunftfamilien" class=""><?php include("familien/zunftfamilien.php"); ?></div>
         <div id="download" class="hidden"><?php include("familien/download.php"); ?></div>
         <div id="upload" class="hidden"><?php include("familien/upload.php"); ?></div>
+        <div id="forms_anmeldung_zunftbot" class="hidden"><?php include("familien/forms/forms_zunftbot.php"); ?></div>
         <div id="login" class="hidden"><?php include("familien/login.php"); ?></div>
     </div>
 </div>

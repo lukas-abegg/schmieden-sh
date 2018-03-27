@@ -23,7 +23,7 @@
 </p>
 <div class="center-polaroid">
     <div class="polaroid">
-        <img src="images/new/zunfthaus_schmiedestube.png" alt="Zunft zu'n Schmieden">
+        <img src="images/new/zunfthaus_schmiedestube.png" id="imgPortal" alt="Portal ehemaliges Zunfthause Zunft zu'n Schmieden">
         <div class="container">
             <p>Portal des ehemaligen Zunfthauses der Zunft zu'n Schmieden</p>
         </div>

@@ -1,5 +1,5 @@
 <div class="logo">
-    <img src="images/new/logo.png" alt="Zunft zun Schmieden">
+    <img src="images/new/logo.png" id="zunftSchmiedenLogo" alt="Zunft zun Schmieden">
 </div>
 <div class="title">
     <p>Zunft zu'n Schmieden</p>
@@ -16,4 +16,3 @@
         Zunftspruch von 1841 anlässlich der 550 Jahrfeier zum Bestehen der Schweiz
     </p>
 </div>
-
