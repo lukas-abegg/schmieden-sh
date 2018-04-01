@@ -1,6 +1,5 @@
 jQuery(document).ready(function ($) {
 
-    console.log("asdasd");
     var login_failed_msg = $('#login-failed-msg');
 
     $.urlParam = function (name) {
@@ -18,7 +17,5 @@ jQuery(document).ready(function ($) {
     } else {
         login_failed_msg.addClass("hidden");
     }
-
-    console.log(login_failed);
 
 });

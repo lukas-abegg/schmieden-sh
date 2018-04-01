@@ -29,6 +29,7 @@
     <script type="text/javascript" src="jquery.url.js"></script>
     <script type="text/javascript" src="js/responsive-nav.js"></script>
     <script type="text/javascript" src="js/login.js"></script>
+    <script type="text/javascript" src="js/forms.js"></script>
 </head>
 <body>
 

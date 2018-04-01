@@ -51,6 +51,21 @@
     box-sizing: border-box;
 }
 
+.forms input[type=reset] {
+    background-color: #555555;
+    border: 3px solid #fff;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em 2em;
+    margin-top: 2em;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+    font-size: .8em;
+}
+
 .forms input[type=submit] {
     background-color: #555555;
     border: 3px solid #fff;
@@ -118,4 +133,9 @@
     float: left;
     width: 75%;
     margin-top: 6px;
+}
+
+#success_forms.hint{
+    background: #6EA070;
+    border-radius: 4px;
 }
