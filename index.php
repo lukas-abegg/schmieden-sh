@@ -63,11 +63,11 @@
 </div>
 
 
-<section id="home" data-stellar-background-ratio="0.5">
+<section id="home" class="section-home" data-stellar-background-ratio="0.5">
     <?php include("pages/home.php"); ?>
 </section>
 
-<section id="news" data-stellar-background-ratio="0.5">
+<section id="news" class="section-news" data-stellar-background-ratio="0.5">
     <?php include("pages/news.php"); ?>
 </section>
 
@@ -87,11 +87,11 @@
     <?php include("pages/familien.php"); ?>
 </section>
 
-<section id="events" data-stellar-background-ratio="0.5">
+<section id="events" class="section-events" data-stellar-background-ratio="0.5">
     <?php include("pages/events.php"); ?>
 </section>
 
-<section id="links" data-stellar-background-ratio="0.5">
+<section id="links" class="section-links" data-stellar-background-ratio="0.5">
     <?php include("pages/links.php"); ?>
 </section>
 
