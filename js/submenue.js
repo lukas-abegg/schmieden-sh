@@ -21,6 +21,7 @@ jQuery(document).ready(function ($) {
     var familien_download_link = $('#download_link');
     var familien_upload_link = $('#upload_link');
     var forms_anmeldung_zunftbot_link = $('#forms_anmeldung_zunftbot_link');
+    var forms_bestellung_zunftwein_link = $('#forms_bestellung_zunftwein_link');
 
     var historie_zunftbildung = $('#zunftbildung');
     var historie_zunftberufe = $('#zunftberufe');
@@ -38,6 +39,7 @@ jQuery(document).ready(function ($) {
     var familien_download = $('#download');
     var familien_upload = $('#upload');
     var forms_anmeldung_zunftbot = $('#forms_anmeldung_zunftbot');
+    var forms_bestellung_zunftwein = $('#forms_bestellung_zunftwein');
 
 
     historie_zunftbildung_link.click(function () {
@@ -233,5 +235,20 @@ jQuery(document).ready(function ($) {
             ;
         });
         forms_anmeldung_zunftbot.removeClass(hidden);
+    });
+
+    forms_bestellung_zunftwein_link.click(function () {
+        forms_bestellung_zunftwein_link.parent(div).parent(div).children().each(function () {
+            $(this).removeClass(active);
+        });
+        forms_bestellung_zunftwein_link.parent(div).addClass(active);
+
+        forms_bestellung_zunftwein.parent().children().each(function () {
+            if (!$(this).hasClass(hidden)) {
+                $(this).addClass(hidden);
+            }
+            ;
+        });
+        forms_bestellung_zunftwein.removeClass(hidden);
     });
 });

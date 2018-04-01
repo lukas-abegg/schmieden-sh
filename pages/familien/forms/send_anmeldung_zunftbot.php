@@ -5,29 +5,29 @@ if (!isset($_SESSION)) {
 
 if (isset($_SESSION['vorstand']) || $_SESSION['vorstand'] || isset($_SESSION['zuenfter']) || $_SESSION['zuenfter']) {
 
-    if (isset($_POST['email'])) {
+    if (isset($_POST['anmeldung_zunftbot_email'])) {
         $to = "lukas.abegg1@gmail.com"; // this is your Email address
-        $from = $_POST['email']; // this is the sender's Email address
-        $first_name = $_POST['vorname'];
-        $last_name = $_POST['name'];
-        $jahrgang = $_POST['jahrgang'];
-        $adresse = $_POST['adresse'];
-        $plz = $_POST['plz'];
-        $wohnort = $_POST['wohnort'];
+        $from = $_POST['anmeldung_zunftbot_email']; // this is the sender's Email address
+        $first_name = $_POST['anmeldung_zunftbot_vorname'];
+        $last_name = $_POST['anmeldung_zunftbot_name'];
+        $jahrgang = $_POST['anmeldung_zunftbot_jahrgang'];
+        $adresse = $_POST['anmeldung_zunftbot_adresse'];
+        $plz = $_POST['anmeldung_zunftbot_plz'];
+        $wohnort = $_POST['anmeldung_zunftbot_wohnort'];
 
-        $nachmittag_teilnahme = $_POST['nachmittag_teilnahme'];
-        $nachmittag_erwachsene = $_POST['nachmittag_erwachsene'];
-        $nachmittag_kinder = $_POST['nachmittag_kinder'];
+        $nachmittag_teilnahme = $_POST['anmeldung_zunftbot_nachmittag_teilnahme'];
+        $nachmittag_erwachsene = $_POST['anmeldung_zunftbot_nachmittag_erwachsene'];
+        $nachmittag_kinder = $_POST['anmeldung_zunftbot_nachmittag_kinder'];
 
-        $apero_teilnahme = $_POST['apero_teilnahme'];
-        $apero_erwachsene = $_POST['apero_erwachsene'];
-        $apero_kinder = $_POST['apero_kinder'];
+        $apero_teilnahme = $_POST['anmeldung_zunftbot_apero_teilnahme'];
+        $apero_erwachsene = $_POST['anmeldung_zunftbot_apero_erwachsene'];
+        $apero_kinder = $_POST['anmeldung_zunftbot_apero_kinder'];
 
-        $nachtessen_teilnahme = $_POST['nachtessen_teilnahme'];
-        $nachtessen_telefon = $_POST['nachtessen_telefon'];
-        $nachtessen_email = $_POST['nachtessen_email'];
+        $nachtessen_teilnahme = $_POST['anmeldung_zunftbot_nachtessen_teilnahme'];
+        $nachtessen_telefon = $_POST['anmeldung_zunftbot_nachtessen_telefon'];
+        $nachtessen_email = $_POST['anmeldung_zunftbot_nachtessen_email'];
 
-        $zunftbot_teilnahme = $_POST['zunftbot_teilnahme'];
+        $zunftbot_teilnahme = $_POST['anmeldung_zunftbot_zunftbot_teilnahme'];
 
 
         // Email
@@ -56,13 +56,13 @@ if (isset($_SESSION['vorstand']) || $_SESSION['vorstand'] || isset($_SESSION['zu
 
         $headers = "From:" . $from;
         $headers2 = "From:" . $to;
-        //mail("$to; $from", $subject, $message, $headers);
+        mail("$to; $from", $subject, $message, $headers);
 
         //DB insert
         $servername = "localhost";
-        $port = "8889";
-        $username = "root";
-        $password = "root";
+        $port = "3306";
+        $username = "web418";
+        $password = "Schmied$2018";
         $dbname = "schmieden";
 
         // Create connection
@@ -93,7 +93,7 @@ if (isset($_SESSION['vorstand']) || $_SESSION['vorstand'] || isset($_SESSION['zu
 
         $url = "../../../index.php";
         $page = "#familien";
-        $url .= "?forms=anmeldung_zunftbot=$page";
+        $url .= "?forms=anmeldung_zunftbot$page";
 
         // Weiterleitung zur Startseite
         header("Location: $url");

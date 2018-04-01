@@ -13,7 +13,7 @@
 </p>
 <ul>
     <li>Wegfall der h&auml;ngenden Verzierungen unterhalb des eigentlichen Bechers</li>
-    <li>Anbringung des Datums der Stiftung, des Namens der Zunft und des Stadtwap-pens am Leib des Bechers</li>
+    <li>Anbringung des Datums der Stiftung, des Namens der Zunft und des Stadtwappens am Leib des Bechers</li>
     <li>Platzierung eines Schmiedes nach der seinerzeit angefertigten Fotografie anstelle des sich auf das Stadtwappen st&uuml;tzenden Bockes auf dem Deckel des Bechers k&ouml;nnten ohne Beeintr&auml;chtigung des k&uuml;nstlerischen Wertes vorgenommen werden.</li>
 </ul>
 <div class="center-polaroid">

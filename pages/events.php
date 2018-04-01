@@ -3,12 +3,6 @@
 <div class="events">
     <h3>Anlässe der Zunft zu'n Schmieden</h3>
 
-    <div class="event">
-        <div class="datum">17. März 2018</div>
-        <div class="title">Zunftbot</div>
-        <p>Hotel Kronenhof
-        </p>
-    </div>
     <div class="event last">
         <div class="datum">16. Juni 2018</div>
         <div class="title">Munotabend</div>
