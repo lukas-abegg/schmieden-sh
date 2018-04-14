@@ -158,6 +158,10 @@
 }
 
 @media screen and (min-width: 40em) {
+    .download-vorstand a{
+        font-size: 1em;
+    }
+
     .vorstand-menu a {
         font-size: 1em;
         margin-left: 1em;

@@ -12,12 +12,12 @@
 </p>
 <p>
     Nach dem endg&uuml;ltigen Verlust der politischen Rechte der Z&uuml;nfte durch
-    die Stadtverfas-sung von 1847 und im Hinblick auf die Handes- und
-    Gewerbefreiheit durch die Kan-tonsverfassung von 1851 verkauften die
-    Schmieden ihre Schmiedstube am 12. Sep-tember 1848 f&uuml;r 5&#8216;000.- Gulden.
-    F&uuml;r die sich im Keller befindlichen, in Eisen gebunde-nen und ca. 250
+    die Stadtverfassung von 1847 und im Hinblick auf die Handes- und
+    Gewerbefreiheit durch die Kantonsverfassung von 1851 verkauften die
+    Schmieden ihre Schmiedstube am 12. September 1848 f&uuml;r 5&#8216;000.- Gulden.
+    F&uuml;r die sich im Keller befindlichen, in Eisen gebundenen und ca. 250
     Saum (1 Saum = 167 l) haltenden F&auml;sser waren weitere 500.- Gulden zu
-    zahlen. 4&#8216;000.- Gulden oder CHF 18&#8216;000.- - &uuml;ber 70% des Preises &#8211;
+    zahlen. 4&#8216;000.- Gulden oder CHF 18&#8216;000.- &uuml;ber 70% des Preises &#8211;
     wurden durch ein Grundpfandrecht zugunsten der Zunft im 1. Rang
     getilgt.
 </p>
@@ -45,13 +45,13 @@
     1738 wehrten sich die Schmieden gegen rohe Trinksitten auf ihrer Stube
     durch die Einschr&auml;nkung des Zutrinkens. An der Wand der Zunftstube hing
     die Rucktafel, mit den Schildern aller Z&uuml;nfter, aus der auch die Rang-
-    und Sitzord-nung hervorging.
+    und Sitzordnung hervorging.
 </p>
 <p>
     Die Trinkstuben waren keine eigentlichen Tavernenwirtschaften; in ihr
-    durfte der Stu-benknecht oder Zunftdiener nur Z&uuml;nfter bewirten; das
+    durfte der Stubenknecht oder Zunftdiener nur Z&uuml;nfter bewirten; das
     Mitbringen von G&auml;sten war erlaubt. Die Z&uuml;nfter fanden sich allabendlich
-    auf der Stube zum Umtrunk ein, versam-melten sich in der Stube oder im
+    auf der Stube zum Umtrunk ein, versammelten sich in der Stube oder im
     Festsall zum Bot oder zu anderen Zunftanl&auml;ssen (Neujahr, Berchtold-,
     Dreik&ouml;nigstag, Aschermittwoch, Pfingstmontag und weiteren Festtagen).
 </p>

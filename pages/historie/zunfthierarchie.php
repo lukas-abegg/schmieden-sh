@@ -1,9 +1,9 @@
 <h3>Der Schaffhauser Zunftmeister und seine Sechser</h3>
 <p>
     Die Zunftbriefe von 1411 und 1449 mit letzter Revision von 1535 beinhalten
-    die Stadt-verfassung und das Zunftrecht jeder Zunft; durch diese Briefe
-    wurden aus den Hand-werker-Innungen (-Vereinigungen) politische
-    K&ouml;rperschaften, w&auml;hrend vier Jahrhunder-ten zu Quellen der Staatsmacht.
+    die Stadtverfassung und das Zunftrecht jeder Zunft; durch diese Briefe
+    wurden aus den Handwerker-Innungen (-Vereinigungen) politische
+    K&ouml;rperschaften, w&auml;hrend vier Jahrhunderten zu Quellen der Staatsmacht.
 </p>
 <p>
     Allj&auml;hrlich am Pfingstmontag war Wahltag. Der B&uuml;rgermeister wurde im
@@ -12,13 +12,13 @@
     Zunftvorstand also aus 7 Mitgliedern. Weitere Wahlen in das Stadt- und
     Vogtgericht sowie das Zivil- und Strafgericht folgten. Kein
     Zunftmeister war gezwungen, die Last dieses Amtes mehr als eine
-    einj&auml;hrige Amts-dauer zu tragen: er tr&uuml;ge dann es gern. Er war
-    berechtigt, seinen Gesellen zu "gebie-ten" - sie zu Zunftversammlungen
+    einj&auml;hrige Amtsdauer zu tragen: er tr&uuml;ge dann es gern. Er war
+    berechtigt, seinen Gesellen zu "gebieten" - sie zu Zunftversammlungen
     aufzubieten - und Bussen von 1 bis 5 Schilling - je nach Wichtigkeit
     der Traktanden - f&uuml;r das Nichterscheinen zu verh&auml;ngen. Der
     Original-Zunftbrief der Schmieden von 1535 existiert noch und wird als
     Deposita im Staatsarchiv aufbewahrt. Er enth&auml;lt neben Verfassung und
-    Zunftrecht auch Ordnungs-vorschriften, so zum Beispiel:
+    Zunftrecht auch Ordnungsvorschriften, so zum Beispiel:
 </p>
 <div class="citation">
     <p class="citation-text citation-rules">

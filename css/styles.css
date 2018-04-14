@@ -137,6 +137,10 @@ section.section-vorstand {
     min-height: 750vh;
 }
 
+section.section-links {
+    min-height: 300vh;
+}
+
 h1 {
     padding-bottom: 1em;
     font-size: 2.5em;

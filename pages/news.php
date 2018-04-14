@@ -11,6 +11,8 @@
         Die Struktur bleibt gleich wie früher. Anstatt jedoch für jede Unterseite, ständig die Website neu zu laden, wurde
         die Website so aufgebaut, dass mithilfe von runterscrollen bzw. des Menüs, zwischen den Menüpunkten gewechselt
         werden kann.
+    <br><br>
+        Der Webmaster wünscht viel Spass beim Erkunden des neuen Webauftrittes der Zunft zu'n Schmieden.
     <br><br><br>
         <i>Mit zünftigem Gruss und Handschlag,<br>
         der Webmaster der Zunft zu'n Schmieden -  Lukas Abegg</i>
@@ -22,4 +24,3 @@
     <div class="title">Munotabend</div>
     <p class="description">Munotabend der Schaffhauser Gesellschaften und Zünfte </p>
 </div>
-

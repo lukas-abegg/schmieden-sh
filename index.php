@@ -33,6 +33,8 @@
 </head>
 <body>
 
+<?php session_start(); ?>
+
 <header>
     <nav class="nav-collapse">
         <ul>

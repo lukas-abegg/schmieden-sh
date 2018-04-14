@@ -26,7 +26,7 @@
             <div class="familien-menu"><a id="download_link" href="#familien" data-scroll>Zunftdokumente
                     herunterladen</a></div>
             <div class="familien-menu"><a id="galerie_link"
-                                          href="../intern/Zunft_Zun_Schmieden_Galerie/album/Galerie_Fotos/index.html"
+                                          href="../intern/Zunft_Zun_Schmieden_Galerie/album/Galerie%20Fotos/index.html"
                                           target="_blank" data-scroll>Fotogalerie</a></div>
             <div class="familien-menu"><a id="logout_link" href="pages/familien/logout.php" data-scroll>Logout</a></div>
             <?
