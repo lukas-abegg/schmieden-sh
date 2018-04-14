@@ -93,9 +93,6 @@ a:hover {
     }
 }
 
-/* ------------------------------------------
-  DEMO STYLES
---------------------------------------------- */
 
 body {
     -webkit-text-size-adjust: 100%;
@@ -121,8 +118,12 @@ section.section-news {
     min-height: 150vh;
 }
 
+section.section-events {
+    min-height: 120vh;
+}
+
 section.section-history {
-    min-height: 325vh;
+    min-height: 320vh;
 }
 
 section.section-silber {
@@ -130,7 +131,7 @@ section.section-silber {
 }
 
 section.section-familien {
-    min-height: 500vh;
+    min-height: 550vh;
 }
 
 section.section-vorstand {
@@ -138,7 +139,7 @@ section.section-vorstand {
 }
 
 section.section-links {
-    min-height: 300vh;
+    min-height: 325vh;
 }
 
 h1 {
@@ -152,7 +153,7 @@ h1 {
     }
 
     section.section-history {
-        min-height: 200vh;
+        min-height: 175vh;
     }
 
     section.section-silber {
@@ -161,6 +162,23 @@ h1 {
 
     section.section-vorstand {
         min-height: 200vh;
+    }
+
+
+    section.section-news {
+        min-height: 100vh;
+    }
+
+    section.section-events {
+        min-height: 120vh;
+    }
+
+    section.section-familien {
+        min-height: 275vh;
+    }
+
+    section.section-links {
+        min-height: 275vh;
     }
 
     h1 {
