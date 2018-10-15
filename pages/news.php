@@ -1,5 +1,13 @@
 <h1>News</h1>
 
+
+<div class="news">
+    <div class="datum">16. Juni 2018</div>
+    <div class="title">Munotabend abgesagt!</div>
+    <p class="description">Der Munotabend 2018 wurde mangels Anmeldungen abgesagt. Auch das Schlechtwetterprogramm wird nicht durchgeführt.</p>
+</div>
+
+
 <div class="news">
     <div class="datum">1. April 2018</div>
     <div class="title">Neuer Webauftritt der Zunft zu'n Schmieden</div>
@@ -17,10 +25,4 @@
         <i>Mit zünftigem Gruss und Handschlag,<br>
         der Webmaster der Zunft zu'n Schmieden -  Lukas Abegg</i>
     </p>
-</div>
-
-<div class="news">
-    <div class="datum">16. Juni 2018</div>
-    <div class="title">Munotabend</div>
-    <p class="description">Munotabend der Schaffhauser Gesellschaften und Zünfte </p>
 </div>

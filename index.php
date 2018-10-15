@@ -2,6 +2,16 @@
 <html lang="en">
 <head>
     <title>Zunft zu'n Schmieden Schaffhausen</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118926817-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-118926817-1');
+    </script>
+
     <meta name="author" content="Zunft zu'n Schmieden Schaffhausen">
     <meta name="description"
           content="Den Hammer wählt die Zunft als Bild der Mannesstärke, die Zange als das Sinnbild ihrer Willenskraft. Verein’ge damit noch der hier gekrümmten Schlange Ringelzeichen, ruft Bürg’schaft laut: Vom Schmied wird ewig nie die Bürgertreue weichen.">

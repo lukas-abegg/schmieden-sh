@@ -5,8 +5,8 @@
 
     <div class="event last">
         <div class="datum">16. Juni 2018</div>
-        <div class="title">Munotabend</div>
-        <p class="description">Abend der Schaffhauser Gesellschaften und Zünfte auf dem Munot</p>
+        <div class="title">Munotabend abgesagt!</div>
+        <p class="description">Der Munotabend 2018 wurde mangels Anmeldungen abgesagt. Auch das Schlechtwetterprogramm wird nicht durchgeführt.</p>
     </div>
 </div>
 

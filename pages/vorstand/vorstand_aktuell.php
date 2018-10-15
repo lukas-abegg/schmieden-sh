@@ -64,7 +64,7 @@
                 <div class="container">
                     <p class="title">Silberherr und Stubenmeister:<br>Edgar Sulzer</p>
                     <p class="count">Bruderh&ouml;flistrasse 36,<br> 8203 Schaffhausen</p>
-                    <p class="total"><a href="mailto:vorstandherr@schmieden-sh.ch">vorstandherr[at]schmieden-sh.ch</a>
+                    <p class="total"><a href="mailto:silberherr@schmieden-sh.ch">silberherr[at]schmieden-sh.ch</a>
                     </p>
                 </div>
             </div>
