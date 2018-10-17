@@ -4,9 +4,12 @@
     <h3>Anlässe der Zunft zu'n Schmieden</h3>
 
     <div class="event last">
-        <div class="datum">16. Juni 2018</div>
-        <div class="title">Munotabend abgesagt!</div>
-        <p class="description">Der Munotabend 2018 wurde mangels Anmeldungen abgesagt. Auch das Schlechtwetterprogramm wird nicht durchgeführt.</p>
+        <div class="datum">10.November 2018</div>
+        <div class="title">Herbstanlass 2018</div>
+        <p class="description">Die Zunft zu`n Schmieden macht einen sportlichen Nachmittag im Bowlingscenter Thayngen SH.</p>
+        <br><br>
+        <b>Anmeldung bitte bis am 31.Oktober 2018</b> per Email oder Post:<br>
+        Hanspeter Schoch, Irchelstrasse 18, 2012 Neuhausen / <a href="mailto:zunftverwalter@schmieden-sh.ch">zunftverwalter[at]schmieden-sh.ch</a>
     </div>
 </div>
 
