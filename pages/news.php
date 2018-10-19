@@ -2,9 +2,12 @@
 
 
 <div class="news">
-    <div class="datum">16. Juni 2018</div>
-    <div class="title">Munotabend abgesagt!</div>
-    <p class="description">Der Munotabend 2018 wurde mangels Anmeldungen abgesagt. Auch das Schlechtwetterprogramm wird nicht durchgeführt.</p>
+    <div class="datum">10.November 2018</div>
+    <div class="title">Herbstanlass 2018</div>
+    <p class="description">Die Zunft zu`n Schmieden macht einen sportlichen Nachmittag im Bowlingscenter Thayngen SH.
+        <br><br>
+        Für Details, siehe unter >>Events<<.
+    </p>
 </div>
 
 
@@ -12,17 +15,19 @@
     <div class="datum">1. April 2018</div>
     <div class="title">Neuer Webauftritt der Zunft zu'n Schmieden</div>
     <p class="description">Die Website der Zunft zu'n Schmieden zeigt sich in einem neuen Gewand.
-    <br><br>
+        <br><br>
         Das Design wurde modernisiert. Die komplette Website ist nun responsiv und somit auch mobile freundlich.
-        Damit kann die Website nicht nur auf dem Computer ohne lästiges zoomen bedient werden, sondern auch auf dem Handy.
-    <br><br>
-        Die Struktur bleibt gleich wie früher. Anstatt jedoch für jede Unterseite, ständig die Website neu zu laden, wurde
+        Damit kann die Website nicht nur auf dem Computer ohne lästiges zoomen bedient werden, sondern auch auf dem
+        Handy.
+        <br><br>
+        Die Struktur bleibt gleich wie früher. Anstatt jedoch für jede Unterseite, ständig die Website neu zu laden,
+        wurde
         die Website so aufgebaut, dass mithilfe von runterscrollen bzw. des Menüs, zwischen den Menüpunkten gewechselt
         werden kann.
-    <br><br>
+        <br><br>
         Der Webmaster wünscht viel Spass beim Erkunden des neuen Webauftrittes der Zunft zu'n Schmieden.
-    <br><br><br>
+        <br><br><br>
         <i>Mit zünftigem Gruss und Handschlag,<br>
-        der Webmaster der Zunft zu'n Schmieden -  Lukas Abegg</i>
+            der Webmaster der Zunft zu'n Schmieden - Lukas Abegg</i>
     </p>
 </div>
