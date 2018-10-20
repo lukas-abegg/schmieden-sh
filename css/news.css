@@ -38,6 +38,12 @@
     width: 100%;
 }
 
+.news a {
+    text-decoration: none;
+    color: #fff;
+    font-style: italic;
+}
+
 @media screen and (min-width: 50em) {
     .news .datum {
         width: 38%;

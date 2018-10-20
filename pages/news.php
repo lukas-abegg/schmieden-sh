@@ -6,7 +6,7 @@
     <div class="title">Herbstanlass 2018</div>
     <p class="description">Die Zunft zu`n Schmieden macht einen sportlichen Nachmittag im Bowlingscenter Thayngen SH.
         <br><br>
-        Für Details, siehe unter >>Events<<
+        Für Details, siehe unter <a href="#events">>Events<<</a>
     </p>
 </div>
 

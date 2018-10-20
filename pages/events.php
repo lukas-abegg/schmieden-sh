@@ -8,7 +8,7 @@
         <div class="title">Herbstanlass 2018</div>
         <p class="description">Die Zunft zu`n Schmieden macht einen sportlichen Nachmittag im Bowlingscenter Thayngen SH.
         <br><br>
-        Anmeldeformular kann ich >>internen Bereich<< heruntergeladen werden.<br><br>
+        Anmeldeformular kann im <a href="#familien">>internen Bereich<<</a> heruntergeladen werden.<br><br>
         <b>Anmeldung bitte bis am 31.Oktober 2018</b> per Email oder Post:<br>
         Hanspeter Schoch, Irchelstrasse 18, 2012 Neuhausen<br>
             <i>zunftverwalter[at]schmieden-sh.ch</i>
