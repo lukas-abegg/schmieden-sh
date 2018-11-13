@@ -54,13 +54,13 @@
     <div class="link">
         <div class="desc">Zunft zum Rüden</div>
         <div class="links-external-link">
-            <div class="no-link">keine Website</div>
+            <a href="https://www.zunft-zum-rueden.ch/" target="_blank">https://www.zunft-zum-rueden.ch/</a>
         </div>
     </div>
     <div class="link">
         <div class="desc">Gesellschaft zun Herren</div>
         <div class="links-external-link">
-            <div class="no-link">keine Website</div>
+            <a href="https://zunherren.ch/" target="_blank">https://zunherren.ch/</a>
         </div>
     </div>
     <div class="link">
@@ -72,7 +72,7 @@
     <div class="link last">
         <div class="desc">Zunft zun Webern</div>
         <div class="links-external-link">
-            <div class="no-link">keine Website</div>
+            <a href="http://weberzunft.ch//" target="_blank">http://weberzunft.ch/</a>
         </div>
     </div>
 </div>
