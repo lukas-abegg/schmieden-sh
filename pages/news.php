@@ -2,11 +2,10 @@
 
 
 <div class="news">
-    <div class="datum">10.November 2018</div>
-    <div class="title">Herbstanlass 2018</div>
-    <p class="description">Die Zunft zu`n Schmieden macht einen sportlichen Nachmittag im Bowlingscenter Thayngen SH.
-        <br><br>
-        Für Details, siehe unter <a href="#events">>Events<<</a>
+    <div class="datum">23.M&auml;rz 2019</div>
+    <div class="title">Zunftbot 2019</div>
+    <p class="description">
+        Für Details, siehe unter <a href="#events">>>Events<<</a>
     </p>
 </div>
 
