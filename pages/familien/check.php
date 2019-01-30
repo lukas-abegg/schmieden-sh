@@ -11,17 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $passwort = $_POST['passwort'];
 
     // Vorstand Benutzername und Passwort werden überprüft
-    if ($username == 'Vorstand2014' && $passwort == '20VorstandSchmied14') {
-        $_SESSION['vorstand'] = true;
-    } else {
-
-        // Zuenfter Benutzername und Passwort werden überprüft
-        if ($username == 'Zuenfter2014' && $passwort == '20ZuenfterSH14') {
-            $_SESSION['zuenfter'] = true;
-        } else {
-            $url .= "?login_failed=true";
-        }
-    }
+    // geheim...... //
 
 }
 
