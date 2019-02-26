@@ -6,7 +6,7 @@ if (!isset($_SESSION)) {
 if (isset($_SESSION['vorstand']) || $_SESSION['vorstand'] || isset($_SESSION['zuenfter']) || $_SESSION['zuenfter']) {
 
     if (isset($_POST['bestellung_zunftwein_vorname'])) {
-        $to = "zunftschreiber@schmieden-sh.ch"; // this is your Email address
+        $to = "silberherr@schmieden-sh.ch"; // this is your Email address
         $from = $_POST['bestellung_zunftwein_email']; // this is the sender's Email address
         $first_name = $_POST['bestellung_zunftwein_vorname'];
         $last_name = $_POST['bestellung_zunftwein_name'];
