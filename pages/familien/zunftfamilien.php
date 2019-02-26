@@ -8,8 +8,8 @@
                 <div class="container">
                     <p class="title">Abegg</p>
                     <p class="count">Zünfterinnen: 5</p>
-                    <p class="count">Zünfter: 10</p>
-                    <p class="total">Total: 15</p>
+                    <p class="count">Zünfter: 12</p>
+                    <p class="total">Total: 17</p>
                 </div>
             </div>
         </div>
@@ -176,9 +176,9 @@
                 <img src="images/new/familien/moser.jpg" id="Moser" alt="Moser">
                 <div class="container">
                     <p class="title">Moser</p>
-                    <p class="count">Zünfterinnen: 6</p>
+                    <p class="count">Zünfterinnen: 7</p>
                     <p class="count">Zünfter: 4</p>
-                    <p class="total">Total: 10</p>
+                    <p class="total">Total: 11</p>
                 </div>
             </div>
         </div>
@@ -228,9 +228,9 @@
                 <img src="images/new/familien/sulzer.jpg" id="Sulzer" alt="Sulzer">
                 <div class="container">
                     <p class="title">Sulzer</p>
-                    <p class="count">Zünfterinnen: 21</p>
+                    <p class="count">Zünfterinnen: 20</p>
                     <p class="count">Zünfter: 25</p>
-                    <p class="total">Total: 46</p>
+                    <p class="total">Total: 45</p>
                 </div>
             </div>
         </div>
