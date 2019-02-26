@@ -124,7 +124,7 @@
                 </div>
             </div>
         </div>
-        <div class="title">Blauburgunder Auslese 2015</div>
+        <div class="title">Blauburgunder Auslese 2016</div>
         <div class="subtitle">7,5 dl. Flasche zu CHF 12.50</div>
         <div class="row">
             <div class="col-100">
@@ -159,7 +159,7 @@
                 </div>
             </div>
         </div>
-        <div class="title">Riesling x Sylvaner 2015</div>
+        <div class="title">Riesling x Sylvaner 2017</div>
         <div class="subtitle">7,5 dl. Flasche zu CHF 11.00</div>
         <div class="row">
             <div class="col-100">

@@ -12,12 +12,14 @@
 
         if (isset($_SESSION['vorstand']) || isset($_SESSION['zuenfter'])) {
 
-            if (isset($_SESSION['vorstand'])) {
                 ?>
                 <div class="familien-menu"><a id="forms_anmeldung_zunftbot_link" href="#familien" data-scroll>Anmeldung Zunftbot</a>
                 </div>
                 <div class="familien-menu"><a id="forms_bestellung_zunftwein_link" href="#familien" data-scroll>Bestellung Zunftwy</a>
                 </div>
+            <?
+            if (isset($_SESSION['vorstand'])) {
+            ?>
                 <div class="familien-menu"><a id="upload_link" href="#familien" data-scroll>Zunftdokumente ersetzen</a>
                 </div>
                 <?
@@ -34,7 +36,7 @@
             ?>
             <div class="familien-menu"><a id="login_link" href="#familien" data-scroll>Login interner Bereich</a></div>
             <?
-        }
+            }
         ?>
     </div>
 

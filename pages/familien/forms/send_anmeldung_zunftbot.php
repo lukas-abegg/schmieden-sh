@@ -6,7 +6,7 @@ if (!isset($_SESSION)) {
 if (isset($_SESSION['vorstand']) || $_SESSION['vorstand'] || isset($_SESSION['zuenfter']) || $_SESSION['zuenfter']) {
 
     if (isset($_POST['anmeldung_zunftbot_email'])) {
-        $to = "lukas.abegg1@gmail.com"; // this is your Email address
+        $to = "zunftschreiber@schmieden-sh.ch"; // this is your Email address
         $from = $_POST['anmeldung_zunftbot_email']; // this is the sender's Email address
         $first_name = $_POST['anmeldung_zunftbot_vorname'];
         $last_name = $_POST['anmeldung_zunftbot_name'];
