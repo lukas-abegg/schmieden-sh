@@ -10,7 +10,8 @@ if (isset($_SESSION['vorstand']) || $_SESSION['vorstand'] || isset($_SESSION['zu
         $from = $_POST['anmeldung_zunftbot_email']; // this is the sender's Email address
         $first_name = $_POST['anmeldung_zunftbot_vorname'];
         $last_name = $_POST['anmeldung_zunftbot_name'];
-        $jahrgang = $_POST['anmeldung_zunftbot_jahrgang'];
+        $geburtstag = $_POST['anmeldung_zunftbot_geburtstag'];
+        $telefonnummer = $_POST['anmeldung_zunftbot_telefonnummer'];
         $adresse = $_POST['anmeldung_zunftbot_adresse'];
         $plz = $_POST['anmeldung_zunftbot_plz'];
         $wohnort = $_POST['anmeldung_zunftbot_wohnort'];
@@ -37,7 +38,8 @@ if (isset($_SESSION['vorstand']) || $_SESSION['vorstand'] || isset($_SESSION['zu
 
             "$first_name, $last_name hat das Formular für die Anmeldung zum Zunftbot wie folgt ausgefüllt:<br><br><br>" .
             "Vorname / Nachname: $first_name, $last_name<br>" .
-            "Jahrgang: $jahrgang<br>" .
+            "Geburtstag: $geburtstag<br>" .
+            "Telefonnummer: $telefonnummer<br>" .
             "Adresse: $adresse<br>" .
             "PLZ / Wohnort: $plz, $wohnort<br><br><br>" .
 
@@ -54,9 +56,14 @@ if (isset($_SESSION['vorstand']) || $_SESSION['vorstand'] || isset($_SESSION['zu
             "Email: $nachtessen_email<br><br><br>" .
             "Nur	Zünfter	bitte	<i>Ja</i>	oder	<i>Nein</i>	ankreuzen: $zunftbot_teilnahme";
 
-        $headers = "From:" . $from;
-        $headers2 = "From:" . $to;
-        mail("$to; $from", $subject, $message, $headers);
+        $header  = "MIME-Version: 1.0\r\n";
+        $header .= "Content-type: text/html; charset=utf-8\r\n";
+
+        $header .= "From: $from\r\n";
+        $header .= "Reply-To: $from\r\n";
+        $header .= "X-Mailer: PHP ". phpversion();
+
+        mail("$to, $from", $subject, $message, $header);
 
         //DB insert
         $servername = "localhost";
@@ -72,12 +79,12 @@ if (isset($_SESSION['vorstand']) || $_SESSION['vorstand'] || isset($_SESSION['zu
             die("Connection failed: " . mysqli_connect_error());
         }
 
-        $sql = "INSERT INTO anmeldung_zunftbot (first_name, last_name, email, jahrgang, adresse, plz, wohnort, 
+        $sql = "INSERT INTO anmeldung_zunftbot (first_name, last_name, email, geburtstag, telefonnummer, adresse, plz, wohnort, 
                                             nachmittag_teilnahme, nachmittag_erwachsene, nachmittag_kinder,
                                             apero_teilnahme, apero_erwachsene, apero_kinder,
                                             nachtessen_teilnahme, nachtessen_telefon, nachtessen_email,
                                             zunftbot_teilnahme) 
-    VALUES ('$first_name', '$last_name', '$from', '$jahrgang', '$adresse',  '$plz', '$wohnort', 
+    VALUES ('$first_name', '$last_name', '$from', '$geburtstag', '$telefonnummer', '$adresse',  '$plz', '$wohnort', 
             '$nachmittag_teilnahme', '$nachmittag_erwachsene', '$nachmittag_kinder',
             '$apero_teilnahme', '$apero_erwachsene', '$apero_kinder', 
             '$nachtessen_teilnahme', '$nachtessen_telefon', '$nachtessen_email',

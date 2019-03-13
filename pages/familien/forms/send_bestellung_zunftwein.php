@@ -41,14 +41,14 @@ if (isset($_SESSION['vorstand']) || $_SESSION['vorstand'] || isset($_SESSION['zu
         // Email
         $subject = "Bestellschein Zunftwy zu’n Schmieden Schaffhausen von: $first_name,  $last_name";
         $message =
-            "<b>Lieferadresse:</b><br><br><br>" .
+            "<b>Lieferadresse:</b><br><br>" .
 
             "Vorname / Nachname: $first_name, $last_name<br>" .
             "Email: $from<br>" .
             "Adresse: $adresse<br>" .
             "PLZ / Wohnort: $plz, $wohnort<br><br><br>" .
 
-            "<b>Rechnungsadresse:</b><br><br><br>" .
+            "<b>Rechnungsadresse:</b><br><br>" .
 
             "Abweichende Rechnungsadresse: $rechnung_abweichend<br>" .
             "Vorname / Nachname: $rechnung_first_name, $rechnung_last_name<br>" .
@@ -56,15 +56,19 @@ if (isset($_SESSION['vorstand']) || $_SESSION['vorstand'] || isset($_SESSION['zu
             "Adresse: $rechnung_adresse<br>" .
             "PLZ / Wohnort: $rechnung_plz, $rechnung_wohnort<br><br><br>" .
 
-            "Bestellung - <b>Blauburgunder Auslese 2015</b>: $bestellung_rot<br><br>" .
-            "Anzahl Flaschen: $bestellung_rot_anzahl<br>" .
+            "Bestellung - <b>Blauburgunder Auslese 2015</b>: $bestellung_rot<br>" .
+            "Anzahl Flaschen: $bestellung_rot_anzahl<br><br>" .
 
-            "Bestellung - <b>Riesling x Sylvaner 2015</b>: $bestellung_weiss<br><br>" .
+            "Bestellung - <b>Riesling x Sylvaner 2015</b>: $bestellung_weiss<br>" .
             "Anzahl Flaschen: $bestellung_weiss_anzahl<br>";
 
-        $headers = "From:" . $from;
-        $headers2 = "From:" . $to;
-        mail("$to; $from", $subject, $message, $headers);
+        $header  = "MIME-Version: 1.0\r\n";
+        $header .= "Content-type: text/html; charset=utf-8\r\n";
+
+        $header .= "From: $from\r\n";
+        $header .= "Reply-To: $from\r\n";
+        $header .= "X-Mailer: PHP ". phpversion();
+        mail("$to, $from", $subject, $message, $header);
 
         //DB insert
         $servername = "localhost";

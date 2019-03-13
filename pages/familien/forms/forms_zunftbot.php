@@ -7,7 +7,7 @@
     <form id="anmeldung_zunftbot" action="pages/familien/forms/send_anmeldung_zunftbot.php" method="post">
         <div class="row">
             <div class="col-25">
-                <label for="anmeldung_zunftbot_name">Name</label>
+                <label for="anmeldung_zunftbot_name">Name (*)</label>
             </div>
             <div class="col-75">
                 <input type="text" id="anmeldung_zunftbot_name" name="anmeldung_zunftbot_name" placeholder="Dein Name.." required>
@@ -15,7 +15,7 @@
         </div>
         <div class="row">
             <div class="col-25">
-                <label for="anmeldung_zunftbot_vornname">Vorname</label>
+                <label for="anmeldung_zunftbot_vorname">Vorname (*)</label>
             </div>
             <div class="col-75">
                 <input type="text" id="anmeldung_zunftbot_vorname" name="anmeldung_zunftbot_vorname" placeholder="Dein Vorname.." required>
@@ -23,7 +23,7 @@
         </div>
         <div class="row">
             <div class="col-25">
-                <label for="anmeldung_zunftbot_email">Email</label>
+                <label for="anmeldung_zunftbot_email">Email (*)</label>
             </div>
             <div class="col-75">
                 <input type="text" id="anmeldung_zunftbot_email" name="anmeldung_zunftbot_email" placeholder="Deine Email.." required>
@@ -31,15 +31,23 @@
         </div>
         <div class="row">
             <div class="col-25">
-                <label for="anmeldung_zunftbot_jahrgang">Jahrgang</label>
+                <label for="anmeldung_zunftbot_geburtstag">Geburtstag (*)</label>
             </div>
             <div class="col-75">
-                <input type="number" id="anmeldung_zunftbot_jahrgang" name="anmeldung_zunftbot_jahrgang" placeholder="Jahrgang.." required>
+                <input type="text" id="anmeldung_zunftbot_geburtstag" name="anmeldung_zunftbot_geburtstag" placeholder="01.01.1900..." required>
             </div>
         </div>
         <div class="row">
             <div class="col-25">
-                <label for="anmeldung_zunftbot_adresse">Adresse</label>
+                <label for="anmeldung_zunftbot_telefonnummer">Telefonnummer</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="anmeldung_zunftbot_telefonnummer" name="anmeldung_zunftbot_telefonnummer" placeholder="+41 79 123 12 12...">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="anmeldung_zunftbot_adresse">Adresse (*)</label>
             </div>
             <div class="col-75">
                 <input type="text" id="anmeldung_zunftbot_adresse" name="anmeldung_zunftbot_adresse" placeholder="Adresse.." required>
@@ -47,7 +55,7 @@
         </div>
         <div class="row">
             <div class="col-25">
-                <label for="anmeldung_zunftbot_plz">PLZ / Wohnort</label>
+                <label for="anmeldung_zunftbot_plz">PLZ (*) / Wohnort (*)</label>
             </div>
             <div class="col-25">
                 <input type="text" id="anmeldung_zunftbot_plz" name="anmeldung_zunftbot_plz" placeholder="PLZ.." required>
@@ -59,7 +67,7 @@
                 <input type="text" id="anmeldung_zunftbot_wohnort" name="anmeldung_zunftbot_wohnort" placeholder="Wohnort.." required>
             </div>
         </div>
-        <div class="title">Ich / Wir nehmen am Nachmittagsprogramm teil</div>
+        <div class="title">Ich / Wir nehmen am Nachmittagsprogramm teil (*)</div>
         <div class="row">
             <div class="col-100">
                 <label for="anmeldung_zunftbot_nachmittag_teilnahme">Bei Interesse bitte <i>Ja</i> auswählen und geforderte
@@ -98,7 +106,7 @@
                 </div>
             </div>
         </div>
-        <div class="title">Ich / Wir nehmen am Apero teil</div>
+        <div class="title">Ich / Wir nehmen am Apero teil (*)</div>
         <div class="row">
             <div class="col-100">
                 <label for="anmeldung_zunftbot_apero_teilnahme">Bei Interesse bitte <i>Ja</i> auswählen und geforderte
@@ -137,7 +145,7 @@
                 </div>
             </div>
         </div>
-        <div class="title">Teilnahme am Nachtessen der Frauen</div>
+        <div class="title">Teilnahme am Nachtessen der Frauen (*)</div>
         <div class="row">
             <div class="col-100">
                 <label for="anmeldung_zunftbot_nachtessen_teilnahme">Bei Interesse bitte <i>Ja</i> auswählen und geforderte
@@ -175,7 +183,7 @@
             </div>
         </div>
 
-        <div class="title">Teilnahme am Zunftbot</div>
+        <div class="title">Teilnahme am Zunftbot (*)</div>
         <div class="row">
             <div class="col-100">
                 <label for="anmeldung_zunftbot_zunftbot_teilnahme">Nur Zünfter bitte <i>Ja</i> oder <i>Nein</i> ankreuzen</label>

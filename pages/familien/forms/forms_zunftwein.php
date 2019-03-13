@@ -13,7 +13,7 @@
         <div class="title">Lieferadresse</div>
         <div class="row">
             <div class="col-25">
-                <label for="bestellung_zunftwein_name">Name</label>
+                <label for="bestellung_zunftwein_name">Name (*)</label>
             </div>
             <div class="col-75">
                 <input type="text" id="bestellung_zunftwein_name" name="bestellung_zunftwein_name" placeholder="Dein Name.." required>
@@ -21,7 +21,7 @@
         </div>
         <div class="row">
             <div class="col-25">
-                <label for="bestellung_zunftwein_vname">Vorname</label>
+                <label for="bestellung_zunftwein_vname">Vorname (*)</label>
             </div>
             <div class="col-75">
                 <input type="text" id="bestellung_zunftwein_vorname" name="bestellung_zunftwein_vorname" placeholder="Dein Vorname.." required>
@@ -29,7 +29,7 @@
         </div>
         <div class="row">
             <div class="col-25">
-                <label for="bestellung_zunftwein_email">Email</label>
+                <label for="bestellung_zunftwein_email">Email (*)</label>
             </div>
             <div class="col-75">
                 <input type="text" id="bestellung_zunftwein_email" name="bestellung_zunftwein_email" placeholder="Deine Email.." required>
@@ -37,7 +37,7 @@
         </div>
         <div class="row">
             <div class="col-25">
-                <label for="bestellung_zunftwein_adresse">Adresse</label>
+                <label for="bestellung_zunftwein_adresse">Adresse (*)</label>
             </div>
             <div class="col-75">
                 <input type="text" id="bestellung_zunftwein_adresse" name="bestellung_zunftwein_adresse" placeholder="Adresse.." required>
@@ -45,7 +45,7 @@
         </div>
         <div class="row">
             <div class="col-25">
-                <label for="bestellung_zunftwein_plz">PLZ / Wohnort</label>
+                <label for="bestellung_zunftwein_plz">PLZ (*) / Wohnort (*)</label>
             </div>
             <div class="col-25">
                 <input type="text" id="bestellung_zunftwein_plz" name="bestellung_zunftwein_plz" placeholder="PLZ.." required>
@@ -82,7 +82,7 @@
                     <label for="bestellung_zunftwein_rechnung_name">Name</label>
                 </div>
                 <div class="col-75">
-                    <input type="text" id="bestellung_zunftwein_rechnung_name" name="bestellung_zunftwein_rechnung_name" placeholder="Dein Name.." >
+                    <input type="text" id="bestellung_zunftwein_rechnung_name" name="bestellung_zunftwein_rechnung_name" placeholder="Dein Name..">
                 </div>
             </div>
             <div class="row">
@@ -98,7 +98,7 @@
                     <label for="bestellung_zunftwein_email">Email</label>
                 </div>
                 <div class="col-75">
-                    <input type="text" id="bestellung_zunftwein_rechnung_email" name="bestellung_zunftwein_rechnung_email" placeholder="Deine Email.." >
+                    <input type="text" id="bestellung_zunftwein_rechnung_email" name="bestellung_zunftwein_rechnung_email" placeholder="Deine Email..">
                 </div>
             </div>
             <div class="row">
@@ -106,7 +106,7 @@
                     <label for="bestellung_zunftwein_adresse">Adresse</label>
                 </div>
                 <div class="col-75">
-                    <input type="text" id="bestellung_zunftwein_rechnung_adresse" name="bestellung_zunftwein_rechnung_adresse" placeholder="Adresse.." >
+                    <input type="text" id="bestellung_zunftwein_rechnung_adresse" name="bestellung_zunftwein_rechnung_adresse" placeholder="Adresse..">
                 </div>
             </div>
             <div class="row">
@@ -114,13 +114,13 @@
                     <label for="bestellung_zunftwein_plz">PLZ / Wohnort</label>
                 </div>
                 <div class="col-25">
-                    <input type="text" id="bestellung_zunftwein_rechnung_plz" name="bestellung_zunftwein_rechnung_plz" placeholder="PLZ.." >
+                    <input type="text" id="bestellung_zunftwein_rechnung_plz" name="bestellung_zunftwein_rechnung_plz" placeholder="PLZ..">
                 </div>
                 <div class="col-5">
                     &nbsp;
                 </div>
                 <div class="col-45">
-                    <input type="text" id="bestellung_zunftwein_rechnung_wohnort" name="bestellung_zunftwein_rechnung_wohnort" placeholder="Wohnort.." >
+                    <input type="text" id="bestellung_zunftwein_rechnung_wohnort" name="bestellung_zunftwein_rechnung_wohnort" placeholder="Wohnort..">
                 </div>
             </div>
         </div>
