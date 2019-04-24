@@ -1,2 +1,4 @@
 User-agent: *
-Disallow:
+Disallow: /intern/
+Disallow: /beuth/
+Disallow: /pages/familien/
