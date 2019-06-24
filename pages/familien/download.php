@@ -36,6 +36,12 @@
 <h4>Allgemeine Zunft-Dokumente</h4>
 
 <div class="download">
+    <div class="desc">Revision der Statuten gemäss Zunftbot 2019</div>
+    <div class="download-link">
+        <a href="pages/familien/uploader/downloads/190619_Revision_2019_Statuten.pdf" target="_blank">Download Revision der Statuten gemäss Zunftbot 2019</a>
+    </div>
+</div>
+<div class="download">
     <div class="desc">Teilrevision der Statuten</div>
     <div class="download-link">
         <a href="pages/familien/uploader/downloads/Revision_2012_Statuten.pdf" target="_blank">Download Teilrevision der Statuten</a>

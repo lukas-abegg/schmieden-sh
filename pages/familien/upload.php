@@ -77,6 +77,18 @@
     <h4>Allgemeine Zunft-Dokumente</h4>
 
     <div class="upload">
+        <div class="desc">Revision der Statuten gemäss Zunftbot 2019</div>
+        <div class="upload-link">
+            <form enctype="multipart/form-data" action="pages/familien/uploader/uploader_revision_statuten_190619.php"
+                  method="POST">
+                <input type="file" name="file" id="190619_revision_statuten" class="inputfile"
+                       data-multiple-caption="{count} files selected" multiple/>
+                <label for="190619_revision_statuten">Choose a file</label>
+                <input type="submit" value="Datei hochladen"/>
+            </form>
+        </div>
+    </div>
+    <div class="upload">
         <div class="desc">Teilrevision der Statuten</div>
         <div class="upload-link">
             <form enctype="multipart/form-data" action="pages/familien/uploader/uploader_revision_statuten.php"
