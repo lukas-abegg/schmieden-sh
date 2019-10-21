@@ -160,4 +160,16 @@
             </form>
         </div>
     </div>
+    <div class="upload">
+        <div class="desc">Arbeitsaufteilung Vorstand</div>
+        <div class="upload-link">
+            <form enctype="multipart/form-data" action="pages/familien/uploader/uploader_arbeitsaufteilung_vorstand.php"
+                  method="POST">
+                <input type="file" name="file" id="uploader_arbeitsaufteilung_vorstand" class="inputfile"
+                       data-multiple-caption="{count} files selected" multiple/>
+                <label for="uploader_arbeitsaufteilung_vorstand">Choose a file</label>
+                <input type="submit" value="Datei hochladen"/>
+            </form>
+        </div>
+    </div>
 </div>

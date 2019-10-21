@@ -71,9 +71,15 @@
         <a href="pages/familien/uploader/downloads/Rodel.pdf" target="_blank">Download Rodel</a>
     </div>
 </div>
-<div class="download last">
+<div class="download">
     <div class="desc">Adressliste Rodel</div>
     <div class="download-link">
         <a href="pages/familien/uploader/downloads/Adressliste_Rodel.pdf" target="_blank">Download Adressliste Rodel</a>
+    </div>
+</div>
+<div class="download last">
+    <div class="desc">Arbeitsaufteilung Vorstand</div>
+    <div class="download-link">
+        <a href="pages/familien/uploader/downloads/Arbeitsaufteilung_Vorstand.pdf" target="_blank">Download Arbeitsaufteilung Vorstand</a>
     </div>
 </div>
